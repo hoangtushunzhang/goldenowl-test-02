@@ -8,7 +8,6 @@ import Sidebar from './components/Sidebar';
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 
-// Kiểu dữ liệu trả về từ API tra cứu điểm
 interface ScoreData {
   sbd: string;
   toan: number | null;
